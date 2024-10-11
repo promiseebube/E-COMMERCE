@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Web App</title>
+</head>
+<body>
+    <div class="product-list">
+        <div class="product" data-id="1">
+            <img src="image/fan.png" alt="FAN" class="fan">
+            <h3>FAN</h3>
+            <p>$100</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2">
+            <img src="image/lap.png" alt="LAPTOP" class="fan">
+            <h3>LAPTOP</h3>
+            <p>$388</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="3">
+            <img src="image/pnone.png" alt="PHONE" class="fan">
+            <h3>PHONE</h3>
+            <p>$283</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="4">
+            <img src="image/speaker.jpg" alt="SPEAKER" class="fan">
+            <h3>SPEAKER</h3>
+            <p>$280</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total">Total: $0</div>
+        </div>
+    </div>
+
+    <button id="view-cart">View Cart</button>
+
+    <script src="eco.js"></script>
+</body>
+</html>
